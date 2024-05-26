@@ -37,7 +37,7 @@ def tampilkanDataPilihan():
         print (f"Employee with Code: {inputKode}")
 
     if(inputKode in dataKaryawan):
-        print (f"Code: {inputKode}, Name: {dataKaryawan[i]['Name']}, Position: {dataKaryawan[i]['Position']}, Age: {dataKaryawan[i]['Age']}")
+        print (f"Code: {inputKode}, Name: {dataKaryawan[inputKode]['Name']}, Position: {dataKaryawan[inputKode]['Position']}, Age: {dataKaryawan[inputKode]['Age']}")
     else:
         print("****No Employee Data****")
 
