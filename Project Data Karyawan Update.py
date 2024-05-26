@@ -33,8 +33,6 @@ def tampilkanData():
 
 def tampilkanDataPilihan():
     inputKode = input("Input Employee Code: ")
-    for i in dataKaryawan :
-        print (f"Employee with Code: {inputKode}")
 
     if(inputKode in dataKaryawan):
         print (f"Code: {inputKode}, Name: {dataKaryawan[inputKode]['Name']}, Position: {dataKaryawan[inputKode]['Position']}, Age: {dataKaryawan[inputKode]['Age']}")
