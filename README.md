@@ -1,5 +1,5 @@
---CAPSTONE PROJECT 1--
-#Capstone Project 
+##CAPSTONE PROJECT 1##
+#Purwadhika
 #Project Data Karyawan
 #Mohammad Rizky D 
 
